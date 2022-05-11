@@ -11,9 +11,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="@string/splash_welcome"
-        android:textSize="24sp"
+        android:text=" TODO  Tracker Application \n \n A Walkthrough on the: Presence of Several Tracking inventories to keep Tasks On Track "
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="33dp"
+        android:layout_marginRight="10dp"
         android:textStyle="bold"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -13,16 +13,17 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:text="TO-DO" />
+        android:layout_height="@dimen/cardview_compat_inset_shadow"
+        android:layout_weight="90"
+
+        />
 
     <EditText
         android:id="@+id/edit_txt_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:ems="10"
+        android:ems="50"
         android:hint="@string/edit_title"
         android:inputType="textPersonName" />
 
@@ -37,10 +38,10 @@
 
     <EditText
         android:id="@+id/edit_txt_date"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:ems="10"
+        android:ems="100"
         android:hint="@string/edit_date"
         android:inputType="textPersonName" />
 
@@ -48,6 +49,7 @@
         android:id="@+id/lbl_priority"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:layout_weight="0"
         android:text="@string/edit_priority" />
 
@@ -55,7 +57,7 @@
         android:id="@+id/edit_rg_priority"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:layout_weight="0"
         android:orientation="horizontal">
 
@@ -63,7 +65,7 @@
             android:id="@+id/edit_rb_high"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="3"
             android:background="@color/color_high"
             android:text="@string/edit_high" />
 
@@ -88,7 +90,8 @@
         android:id="@+id/edit_chk_isComplete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
+
         android:layout_weight="0"
         android:text="@string/edit_isComplete" />
 
@@ -96,7 +99,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:layout_weight="0"
@@ -106,14 +109,16 @@
             android:id="@+id/edit_btn_save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:layout_weight="5"
             android:text="@string/edit_save" />
 
         <Button
             android:id="@+id/edit_btn_cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:layout_weight="5"
             android:text="@string/cancel" />
     </LinearLayout>
 
