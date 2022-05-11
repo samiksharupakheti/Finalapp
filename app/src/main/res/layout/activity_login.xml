@@ -7,7 +7,9 @@
     android:layout_marginStart="50dp"
     android:layout_marginLeft="50dp"
     android:layout_marginBottom="10dp"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+
+    >
 
     <LinearLayout
         android:layout_width="0dp"
@@ -25,8 +27,8 @@
             android:layout_marginLeft="50dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:text="@string/login_login"
-            android:textSize="30sp" />
+            android:text="Login to TODO App "
+            android:textSize="50sp" />
 
         <EditText
             android:id="@+id/splash_txt_username"
@@ -56,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
+
             android:layout_marginRight="50dp"
             android:layout_weight="1"
             android:orientation="horizontal">
@@ -64,15 +67,17 @@
                 android:id="@+id/splash_btn_submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/login_signin" />
+                android:layout_weight="5"
+                android:text="login" />
 
             <Button
                 android:id="@+id/splash_btn_cancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="5"
                 android:text="@string/login_cancel" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--    can also use match parent in place of fill parent above in lines 5 and 6 here, goal is to define width or height of view in full screen-->
