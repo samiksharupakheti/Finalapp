@@ -17,11 +17,11 @@
 
     <string name="crud_save">Todo Activity Saved!</string>
     <string name="crud_deleteById">Swapped Item Deleted!</string>
-    <string name="crud_deleteAll">All Items Deleted!</string>
-    <string name="crud_update">Updated!</string>
+    <string name="crud_deleteAll">All list Deleted!</string>
+    <string name="crud_update">Updated the edited value!</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Not here</string>
 
     <string name="edit_title">Topic of the To Do  Task</string>
     <string name="edit_description">Description of the To Do Task </string>
