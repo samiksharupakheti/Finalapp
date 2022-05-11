@@ -51,7 +51,7 @@ public abstract class TodoRoomDatabase extends RoomDatabase {
         protected Void doInBackground(ETodo...todos)
         {
             Date date= new Date();
-            ETodo todo= new ETodo("Sample Title", "Sample Descrition", date, false, 1);
+            ETodo todo= new ETodo("Here is a Sample Title", "Here is a Sample Descriptions", date, false, 1);
             mTodoDAO.insert(todo);
             return null;
         }

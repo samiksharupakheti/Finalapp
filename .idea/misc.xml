@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/samik/Desktop/FinalApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/samik/Desktop/FinalApp/app/src/main/res/drawable/ic_add_new_todo.xml" value="0.1" />
+        <entry key="..\:/Users/samik/Desktop/FinalApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/samik/Desktop/FinalApp/app/src/main/res/layout/activity_edit_todo.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/samik/Desktop/FinalApp/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/samik/Desktop/FinalApp/app/src/main/res/layout/fragment_edit_todo.xml" value="0.20416666666666666" />
