@@ -30,7 +30,7 @@
     <string name="edit_high">Extremely High</string>
     <string name="edit_medium">Medium</string>
     <string name="edit_low">Low</string>
-    <string name="edit_isComplete">isComplete</string>
+    <string name="edit_isComplete">Task Accomplisshed</string>
     <string name="edit_save">Save</string>
     <string name="edit_cancel_prompt">Do you desire to return to home screen?</string>
     <string name="edit_update">Update</string>
