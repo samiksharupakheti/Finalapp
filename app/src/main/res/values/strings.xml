@@ -23,17 +23,17 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="edit_title">Title of Task</string>
-    <string name="edit_description">Description of Task </string>
-    <string name="edit_date">Date of Task</string>
-    <string name="edit_priority">Severity </string>
-    <string name="edit_high">Extremely High</string>
-    <string name="edit_medium">Medium</string>
-    <string name="edit_low">Low</string>
-    <string name="edit_isComplete">Task Accomplisshed</string>
+    <string name="edit_title">Topic of the To Do  Task</string>
+    <string name="edit_description">Description of the To Do Task </string>
+    <string name="edit_date">Date of the To Do Task</string>
+    <string name="edit_priority">Severity of the To Do Tasks </string>
+    <string name="edit_high">Extremely Severe</string>
+    <string name="edit_medium">Medium Severe</string>
+    <string name="edit_low">Moderately Severe</string>
+    <string name="edit_isComplete">Task Accomplished</string>
     <string name="edit_save">Save</string>
     <string name="edit_cancel_prompt">Do you desire to return to home screen?</string>
-    <string name="edit_update">Update</string>
+    <string name="edit_update">Edit</string>
 
 
 </resources>
